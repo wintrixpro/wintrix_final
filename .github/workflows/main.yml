@@ -13,7 +13,11 @@ jobs:
           
       # Ye step dependencies ko download karne ke liye zaroori hai
       - name: Install dependencies
-        run: flutter pub get
+        run: |
+          flutter clean
+          flutter pub cache clean --force
+          flutter pub get
+
         
       - name: Build APK
         run: flutter build apk --release
