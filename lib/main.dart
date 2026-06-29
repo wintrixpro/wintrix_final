@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wintrix_pro/presentation/screens/splash_screen.dart';
-import 'package:wintrix_pro/presentation/provider/splash_provider.dart';
+import 'package:wintrix_final/presentation/screens/splash_screen.dart';
+import 'package:wintrix_final/presentation/provider/splash_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
